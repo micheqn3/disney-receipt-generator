@@ -19,9 +19,9 @@ int main() {
     double paid1;
     double paid2;
     double paid3;
-    int t1= rand( ) % 101 + 100;
-    int t2= rand( ) % 101 + 100;
-    int t3= rand( ) % 101 + 100;
+    int t1= rand( ) % 100 + 1; // Gets a random ticket number between 1-100
+    int t2= rand( ) % 100 + 1;
+    int t3= rand( ) % 100 + 1;
 
     // Output
     cout << "*******************************************";
