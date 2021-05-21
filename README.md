@@ -15,15 +15,15 @@ the user's name, amount they paid, their randomly generated ticket number betwee
 4. Run the file 
 > ./main
 
-![Screenshot](/Assets/command-line.png)
-
 ## This repository contains:
- - main.cpp - This file provides the functionality of the app
- - main - This file contains the compiled code
+ - main.cpp - This file contains the source code
 
 ### Technologies/Languages used: 
 
   - C++
+
+![Screenshot](/Assets/command-line.png)
+
 
 ### License 
 
