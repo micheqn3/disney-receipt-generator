@@ -34,6 +34,10 @@ int main() {
     cout << setw(23) << "     Enter amount paid";
     cout << ": ";
     cin >> paid1;
+    while (paid1 < 154.50) { // Validation for if the user enters a number less than the price of the ticket
+        cout << "The ticket costs $154.50 Please enter a valid value.";
+        cin >> paid1;
+    }
     cin.ignore();
     cout << endl;
 
@@ -60,6 +64,10 @@ int main() {
     cout << setw(23) << "     Enter amount paid";
     cout << ": ";
     cin >> paid2;
+    while (paid2 < 154.50) { 
+        cout << "The ticket costs $154.50 Please enter a valid value.";
+        cin >> paid2;
+    }
     cin.ignore();
     cout << endl;
 
@@ -86,6 +94,10 @@ int main() {
     cout << setw(23) << "     Enter amount paid";
     cout << ": ";
     cin >> paid3;
+    while (paid3 < 154.50) { 
+        cout << "The ticket costs $154.50 Please enter a valid value.";
+        cin >> paid3;
+    }
     cin.ignore();
     cout << endl;
 
